@@ -1,4 +1,4 @@
-export default function getListStudentIds(arr) {
+export default function getStudentsByLocation(arr, str) {
   if (!(arr instanceof Array)) return [];
-  return arr.map((x) => x.id);
+  return arr.filter((x) => x.location === str);
 }
