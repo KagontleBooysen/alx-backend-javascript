@@ -3,4 +3,4 @@ export default function setFromArray(arr) {
   // eslint-disable-next-line
     arr.map(val => { s.add(val) });
   return s;
-};
+}
